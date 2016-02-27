@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Random Quote Machine</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link href='https://fonts.googleapis.com/css?family=Averia+Libre' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="randomColor">
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <blockquote class="text-center">
+                                <div id="quote-content" class="quote">
+                                </div>
+                                <div id="quote-source">
+                                </div>
+                                <small id="quote-title">Author</small>
+                            </blockquote>
+
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <button class="btn btn-lg btn-info" id="getQuote">Next Quote</button>
+                    </div>
+                    <div class="text-center">
+                        <small>Quote will be change randomly every 20 seconds.</small>
+                    </div>
+                    <div class="social">
+                        <button class="btn btn-danger" id="tweet-quote"><i class="fa fa-twitter"> Tweet</i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

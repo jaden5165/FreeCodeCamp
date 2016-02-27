@@ -1,0 +1,17 @@
+
+.tribute-title {
+    background: purple;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+img 
+{
+    width: 50%;
+    height: 50%;
+}
+.bg-gray {
+    background-color: #b1a5a5;
+}
