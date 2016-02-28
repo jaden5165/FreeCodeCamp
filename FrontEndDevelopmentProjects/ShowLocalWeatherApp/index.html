@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="weatherApp">
+    <head>
+        <title> Weather App</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Weather Forecast <i class="fa fa-sun-o"></i> <i class="fa fa-bolt"></i> </a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="jumbotron">
+            <div class="row text-center" id="info">
+                <h1 id="city"></h1>
+                <img src="#" alt="" id="pic">
+                <div id="weather"></div>
+                <div id="degree"></div> 
+            </div>
+            <div class="text-center">
+                <button class="btn btn-info btn-lg" id="getCelsius">Celsius</button>
+                <button class="btn btn-info btn-lg" id="getFah">Fahrenheit</button>
+            </div>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+        <!--        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
+        <script src="main.js"></script>
+    </body>
+</html>

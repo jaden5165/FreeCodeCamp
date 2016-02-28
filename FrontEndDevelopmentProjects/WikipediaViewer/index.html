@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Wikipedia Viewer</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-inverse">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Wikipedia Viewer </a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="box">
+                <div class="container-2">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <input type="search" id="search" placeholder="Search..." />
+                </div>
+            </div>   
+
+            <div class="button text-center" style="margin-top:-70px;">
+                <button class="btn btn-success text-center" onclick="window.open('http://en.wikipedia.org/wiki/Special:Random')">Random Wikipedia</button>
+            </div>
+
+            <div class="card card2" id="card">
+
+<!--
+                <div class="list-group">
+                    <a href="#" class="list-group-item">
+                        <h4 class="list-group-item-heading">List group item heading</h4>
+                        <p class="list-group-item-text">...</p>
+                    </a>
+                </div>
+-->
+            </div>
+            <!-- Latest compiled and minified JavaScript -->
+            <script src="https://code.jquery.com/jquery-2.2.1.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+            <script src="main.js"></script>
+            <script>
+                //            function searchwiki(ele) {
+                //    if(event.keyCode == 13) {
+                //        alert(ele.value);        
+                //    }
+                //}
+            </script>
+            </body>
+</html>
