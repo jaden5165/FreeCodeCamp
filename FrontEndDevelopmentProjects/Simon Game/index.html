@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Simon Game Javascript</title>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">Simon Game Javascript</a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="wrapper">
+            <div class="simon">
+                <ul>
+                    <li class="tile red" data-tile="1"></li>
+                    <li class="tile blue" data-tile="2"></li>
+                    <li class="tile yellow" data-tile="3"></li>
+                    <li class="tile green" data-tile="4"></li>
+                </ul>
+            </div>
+
+
+            <div class="check">
+                <span class="">
+                    <input type="checkbox" id="strict" checked><strong>Strict</strong>
+                </span>
+                <h2 data-action="lose">Sorry, you lost after <span data-round="0">0</span> rounds!</h2>
+                <h4 data-action="lose">Wrong guess. Try again!</h4>                
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="text-center">
+            <h2>Round:<span data-round="0">0</span></h2>
+            <button class="btn btn-primary btn-lg">START</button>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="main.js"></script>
+    </body>
+
+</html>
